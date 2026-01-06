@@ -11,8 +11,8 @@ This task focuses on Object-Oriented Programming (OOP) and the Separation of Con
 ## Week 2: Monte Carlo in Geometry
 ### Integration and the Curse of Dimensionality
 Using random sampling to solve mathematical problems that are difficult or impossible to solve analytically.
-- Predicate-Based Design: I developed a MonteCarloSimulator that accepts a lambda predicate. This allows the same engine to estimate $\pi$ (using a circle predicate), the area of a parabola, or the Gaussian Integral ($e^{-x^2}$) simply by swapping the mathematical condition.
-- Convergence Analysis: I used Log-Log plots to verify the $1/\sqrt{N}$ error trend, proving that Monte Carlo is superior to grid-based Riemann sums in high-dimensional spaces where the "Curse of Dimensionality" makes grids computationally unfeasible.
+- Predicate-Based Design: Developed a MonteCarloSimulator that accepts a lambda predicate. This allows the same engine to estimate $\pi$ (using a circle predicate), the area of a parabola, or the Gaussian Integral ($e^{-x^2}$) simply by swapping the mathematical condition.
+- Convergence Analysis: Used Log-Log plots to verify the $1/\sqrt{N}$ error trend, proving that Monte Carlo is superior to grid-based Riemann sums in high-dimensional spaces where the "Curse of Dimensionality" makes grids computationally unfeasible.
 ## Week 2: The Quant Challenge
 ### Tasks 1-3: Path Generation & Asian Options
 - Vectorized GBM Engine: Implemented Geometric Brownian Motion to model asset price paths.
@@ -24,7 +24,7 @@ Using random sampling to solve mathematical problems that are difficult or impos
 - Vectorization: Utilizing NumPy to perform operations on entire arrays simultaneously, bypassing the speed limitations of Python's interpreter.
 - Modular Software Design: Separating Data, Logic, and Interface to create code that is testable and scalable.
 - Backward Induction: The process of solving a problem from the end-point back to the start, a necessity for pricing early-exercise options. 
-## Tech Stack
+## Tools Used
 - Core: Python, NumPy
 - Visualization: Matplotlib (Log-Log convergence plots, GBM paths)
 - Science: SciPy (Error function erf and stats verification)
